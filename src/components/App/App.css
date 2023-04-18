@@ -112,7 +112,7 @@ img {
 
 /* NAVBAR */
 nav {
-  background-color: #333;
+  background-color: rgb(30, 46, 221);
   color: #fff;
   display: flex;
   justify-content: space-between;
