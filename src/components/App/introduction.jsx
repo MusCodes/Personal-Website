@@ -46,17 +46,39 @@ function Intro() {
               .start();
           }}
         />
-      <div className="linkedin" >
-      <img src="https://img.icons8.com/fluency/48/null/linkedin.png"/>
-      
-      </div>
-      <div className="github">
-      <img src="https://img.icons8.com/fluency/48/null/github.png"/>
-      </div>
-      <div className="resume">
-      <img src="https://img.icons8.com/color/48/null/resume.png"/>
 
-      </div>
+        <div className="icon-container">
+          <a
+            href="https://www.linkedin.com/in/mustafakmustafa/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://img.icons8.com/fluency/48/null/linkedin.png"
+              alt="LinkedIn"
+            />
+          </a>
+          <a
+            href="https://github.com/MusCodes"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://img.icons8.com/fluency/48/null/github.png"
+              alt="GitHub"
+            />
+          </a>
+          <a
+            href="https://docs.google.com/document/d/1HXi5oy0LvRJ25UOD1YHdu20g2ykPj438r239083C6mk/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://img.icons8.com/color/48/null/resume.png"
+              alt="Resume"
+            />
+          </a>
+        </div>
       </div>
     </>
   );
