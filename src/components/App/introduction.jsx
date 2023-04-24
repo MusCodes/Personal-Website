@@ -46,6 +46,17 @@ function Intro() {
               .start();
           }}
         />
+      <div className="linkedin" >
+      <img src="https://img.icons8.com/fluency/48/null/linkedin.png"/>
+      
+      </div>
+      <div className="github">
+      <img src="https://img.icons8.com/fluency/48/null/github.png"/>
+      </div>
+      <div className="resume">
+      <img src="https://img.icons8.com/color/48/null/resume.png"/>
+
+      </div>
       </div>
     </>
   );
