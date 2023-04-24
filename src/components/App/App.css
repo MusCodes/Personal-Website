@@ -255,6 +255,18 @@ a:hover {
 /* Start of the contact icons */
 
 
+.icon-container a {
+  margin-right: 10px;
+}
+
+.icon-container img {
+  transition: transform 0.3s;
+}
+
+.icon-container img:hover {
+  transform: scale(1.2);
+}
+
 /* end of contact icons */
 
 
