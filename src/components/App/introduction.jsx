@@ -53,8 +53,7 @@ function Intro() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src="https://img.icons8.com/fluency/48/null/linkedin.png"
+           <img src="https://img.icons8.com/ios-filled/150/000000/linkedin.png"
               alt="LinkedIn"
             />
           </a>
