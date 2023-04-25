@@ -53,7 +53,7 @@ function Intro() {
             target="_blank"
             rel="noopener noreferrer"
           >
-           <img src="https://img.icons8.com/ios-filled/150/000000/linkedin.png"
+<img src="https://img.icons8.com/fluency/100/null/linkedin.png"
               alt="LinkedIn"
             />
           </a>
@@ -62,8 +62,7 @@ function Intro() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src="https://img.icons8.com/fluency/48/null/github.png"
+            <img src="https://img.icons8.com/fluency/100/null/github.png"
               alt="GitHub"
             />
           </a>
@@ -72,8 +71,7 @@ function Intro() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src="https://img.icons8.com/color/48/null/resume.png"
+            <img src="https://img.icons8.com/plasticine/100/null/resume.png"
               alt="Resume"
             />
           </a>
