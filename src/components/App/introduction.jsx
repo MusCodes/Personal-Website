@@ -75,6 +75,8 @@ function Intro() {
               alt="Resume"
             />
           </a>
+        <h3 className="navLinks">about Mustafa</h3>
+        <h3 className="navLinks">Projects</h3>
         </div>
       </div>
     </>
