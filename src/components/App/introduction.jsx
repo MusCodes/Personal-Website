@@ -1,8 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { useState,useRef } from "react";
 import Typewriter from "typewriter-effect";
+import { Link } from 'react-router-dom';
 
 function Intro() {
   const [loop, setLoop] = useState(true);
+  const aboutRef = useRef(null);
+
 
   const handleTypewriterFinish = () => {
     // Toggle the loop state to continue or stop the typing animation
@@ -75,7 +78,14 @@ function Intro() {
               alt="Resume"
             />
           </a>
-        <h3 className="navLinks">about Mustafa</h3>
+          <Link to="/about">
+  <h3 className="navLinks" onClick={() => aboutRef.current.scrollIntoView({ behavior: 'smooth' })}>
+    about Mustafa
+  </h3>
+</Link>
+
+
+     
         <h3 className="navLinks">Projects</h3>
         </div>
       </div>

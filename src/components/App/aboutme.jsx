@@ -1,6 +1,6 @@
 import React from "react";
 
-function About() {
+const About = React.forwardRef((props, ref) => {
   return (
     <div className="about-container">
       <div className="about-card">
@@ -37,7 +37,7 @@ function About() {
         </div>
       </div>
     </div>
-  );
-}
+);
+})
 
 export default About;
