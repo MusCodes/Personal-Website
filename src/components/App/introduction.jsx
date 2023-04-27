@@ -78,11 +78,8 @@ function Intro() {
               alt="Resume"
             />
           </a>
-          <Link to="/about">
-  <h3 className="navLinks" onClick={() => aboutRef.current.scrollIntoView({ behavior: 'smooth' })}>
-    about Mustafa
-  </h3>
-</Link>
+ 
+<a className="link" href="/about" data-scroll="">About Mustafa</a>
 
 
      
