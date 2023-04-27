@@ -2,7 +2,7 @@ import React, { useState,useRef } from "react";
 import Typewriter from "typewriter-effect";
 import { Link } from 'react-router-dom';
 
-function Intro({ aboutRef }) {
+function Intro({ aboutRef, skillsRef, projectsRef })  {
   const [loop, setLoop] = useState(true);
   
 
@@ -11,8 +11,8 @@ function Intro({ aboutRef }) {
     // Toggle the loop state to continue or stop the typing animation
     setLoop(!loop);
   };
-  const scrollToAbout = () => {
-    aboutRef.current.scrollIntoView({ behavior: "smooth" });
+  const scrollToRef = (ref) => {
+    ref.current.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -82,16 +82,15 @@ function Intro({ aboutRef }) {
             />
           </a>
  
-          <a className="link" onClick={scrollToAbout}>
-          About Me
-        </a>
-        <a className="link" onClick={scrollToAbout}>
-          Skills
-        </a>
-        <a className="link" onClick={scrollToAbout}>
-          Projects
-        </a>
-
+          <a className="link" onClick={() => scrollToRef(aboutRef)}>
+            About Me
+          </a>
+          <a className="link" onClick={() => scrollToRef(skillsRef)}>
+            Skills
+          </a>
+          <a className="link" onClick={() => scrollToRef(projectsRef)}>
+            Projects
+          </a>
      
         </div>
       </div>
