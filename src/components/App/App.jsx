@@ -13,7 +13,7 @@ function App() {
     <div>
       <header>
         <Intro aboutRef={aboutRef} />
-        <About aboutRef={aboutRef} />
+        <About ref={aboutRef} />
         <Skills />
         <Projects />
         <Contact />

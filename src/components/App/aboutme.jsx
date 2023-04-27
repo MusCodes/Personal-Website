@@ -2,7 +2,7 @@ import React from "react";
 
 const About = React.forwardRef((props, ref) => {
   return (
-    <div className="about-container">
+    <div ref={ref} className="about-container">
       <div className="about-card">
         <div className="about-content">
           <div className="macImage">

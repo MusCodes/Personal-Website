@@ -2,9 +2,9 @@ import React, { useState,useRef } from "react";
 import Typewriter from "typewriter-effect";
 import { Link } from 'react-router-dom';
 
-function Intro() {
+function Intro({ aboutRef }) {
   const [loop, setLoop] = useState(true);
-  const aboutRef = useRef(null);
+  
 
 
   const handleTypewriterFinish = () => {
