@@ -2,14 +2,9 @@
  const Skills =React.forwardRef((props,ref) => {
   return (
     <>
-    <div ref={ref} >
-      <h1>express.js</h1>
-      <h1>JavScript.js</h1>
-      <h1>HTML</h1>
-      <h1>CSS</h1>
-      <h1>NODE.JS</h1>
-      <h1>React.js</h1>
-      <h1>Material.UI</h1>
+    <div ref={ref} className="skills" >
+    <img src="https://img.icons8.com/color/165/null/html-5--v1.png"/>
+     
       </div>
     </>
   );

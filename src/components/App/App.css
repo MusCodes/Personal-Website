@@ -237,7 +237,7 @@ a:hover {
   display: inline-block;
   padding: 10px 20px;
   background-color: #3498db;
-  color: #fff;
+  color:#d27c21;
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.2s ease-in-out;
@@ -247,7 +247,7 @@ a:hover {
   background-color: #2980b9;
 }
 .projects {
-  background-color: bisque;
+  background-color: #2d343b;
 }
 
 /* ENDD OF PROJECTS */
@@ -275,5 +275,10 @@ a:hover {
 }
 /* end of about me and project links */
 
+/* Skills */
+.skills{
+  background-color: #181818
+}
 
+/* End of skills */
 
