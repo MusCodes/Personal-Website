@@ -83,12 +83,16 @@ function Intro({ aboutRef }) {
           </a>
  
           <a className="link" onClick={scrollToAbout}>
-          About Mustafa
+          About Me
+        </a>
+        <a className="link" onClick={scrollToAbout}>
+          Skills
+        </a>
+        <a className="link" onClick={scrollToAbout}>
+          Projects
         </a>
 
-
      
-        <h3 className="navLinks">Projects</h3>
         </div>
       </div>
     </>

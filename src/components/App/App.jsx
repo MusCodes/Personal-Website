@@ -3,7 +3,7 @@ import "./App.css";
 import Intro from "./introduction";
 import About from "./aboutme";
 import Projects from "./projects";
-import Contact from "./contact";
+
 import Skills from "./skills";
 import { useRef } from "react";
 
@@ -16,7 +16,7 @@ function App() {
         <About ref={aboutRef} />
         <Skills />
         <Projects />
-        <Contact />
+     
       </header>
     </div>
   );
