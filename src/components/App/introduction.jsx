@@ -11,6 +11,9 @@ function Intro() {
     // Toggle the loop state to continue or stop the typing animation
     setLoop(!loop);
   };
+  const scrollToAbout = () => {
+    aboutRef.current.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <>
@@ -79,7 +82,9 @@ function Intro() {
             />
           </a>
  
-<a className="link" href="/about" data-scroll="">About Mustafa</a>
+          <a className="link" onClick={scrollToAbout}>
+          About Mustafa
+        </a>
 
 
      
