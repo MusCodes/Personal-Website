@@ -4,7 +4,7 @@ const Skills = React.forwardRef((props, ref) => {
   return (
     <>
       <div ref={ref} className="skills">
-        <h1>Technologies</h1>
+        <h1>Skills</h1>
         <div className="skillsBorder">
           <div className="skillsRow">
             <div className="skill">
