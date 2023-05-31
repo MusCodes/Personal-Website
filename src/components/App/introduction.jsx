@@ -8,6 +8,7 @@ function Intro({ aboutRef, skillsRef, projectsRef }) {
   const handleTypewriterFinish = () => {
     // Toggle the loop state to continue or stop the typing animation
     setLoop(!loop);
+    setLoop(true);
   };
   const scrollToRef = (ref) => {
     ref.current.scrollIntoView({ behavior: "smooth" });
@@ -22,7 +23,7 @@ function Intro({ aboutRef, skillsRef, projectsRef }) {
             strings: [
               "I am a Software Developer",
               "I am a Problem-Solver",
-              "I am an Athlete",
+              "I am a Team player",
             ],
             autoStart: true,
             loop: loop,
@@ -33,15 +34,15 @@ function Intro({ aboutRef, skillsRef, projectsRef }) {
                 console.log("Typewriter started");
               })
               .typeString("I am a ")
-              .pauseFor(500)
-              .deleteChars(18)
-              .typeString("Problem-Solver")
+              // .pauseFor(500)
+              // .deleteChars(12)
+              .typeString(" Problem-Solver")
               .pauseFor(500)
               .deleteChars(15)
-              .typeString("Athlete")
+              .typeString(" Team Player")
               .pauseFor(500)
-              .deleteChars(7)
-              .typeString("Software Developer")
+              .deleteChars(11)
+              .typeString(" Software Developer")
               .pauseFor(500)
               .callFunction(() => {
                 console.log("Typewriter finished");
