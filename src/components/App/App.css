@@ -266,7 +266,9 @@ a:hover {
 .icon-container img:hover {
   transform: scale(1.2);
 }
-
+.icon-container{
+  margin-top: 60px;
+}
 /* end of contact icons */
 
 /* about me and projects links */
@@ -330,4 +332,15 @@ a:hover {
 }
 
 /* End of skills */
+
+.linksContainer {
+  margin-top: 100px;
+  
+  justify-content: space-between;
+}
+
+.link {
+  margin-right: 30px; 
+}
+
 

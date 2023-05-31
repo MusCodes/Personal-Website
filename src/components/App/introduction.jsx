@@ -1,11 +1,9 @@
-import React, { useState,useRef } from "react";
+import React, { useState, useRef } from "react";
 import Typewriter from "typewriter-effect";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
-function Intro({ aboutRef, skillsRef, projectsRef })  {
+function Intro({ aboutRef, skillsRef, projectsRef }) {
   const [loop, setLoop] = useState(true);
-  
-
 
   const handleTypewriterFinish = () => {
     // Toggle the loop state to continue or stop the typing animation
@@ -52,6 +50,19 @@ function Intro({ aboutRef, skillsRef, projectsRef })  {
               .start();
           }}
         />
+        <div className="linksContainer">
+          <a className="link" onClick={() => scrollToRef(aboutRef)}>
+            About Me
+          </a>
+
+          <a className="link" onClick={() => scrollToRef(skillsRef)}>
+            Skills
+          </a>
+
+          <a className="link" onClick={() => scrollToRef(projectsRef)}>
+            Projects
+          </a>
+        </div>
 
         <div className="icon-container">
           <a
@@ -59,7 +70,8 @@ function Intro({ aboutRef, skillsRef, projectsRef })  {
             target="_blank"
             rel="noopener noreferrer"
           >
-<img src="https://img.icons8.com/fluency/100/null/linkedin.png"
+            <img
+              src="https://img.icons8.com/fluency/100/null/linkedin.png"
               alt="LinkedIn"
             />
           </a>
@@ -68,7 +80,8 @@ function Intro({ aboutRef, skillsRef, projectsRef })  {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="https://img.icons8.com/fluency/100/null/github.png"
+            <img
+              src="https://img.icons8.com/fluency/100/null/github.png"
               alt="GitHub"
             />
           </a>
@@ -77,21 +90,11 @@ function Intro({ aboutRef, skillsRef, projectsRef })  {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="https://img.icons8.com/plasticine/100/null/resume.png"
+            <img
+              src="https://img.icons8.com/plasticine/100/null/resume.png"
               alt="Resume"
             />
           </a>
- 
-          <a className="link" onClick={() => scrollToRef(aboutRef)}>
-            About Me
-          </a>
-          <a className="link" onClick={() => scrollToRef(skillsRef)}>
-            Skills
-          </a>
-          <a className="link" onClick={() => scrollToRef(projectsRef)}>
-            Projects
-          </a>
-     
         </div>
       </div>
     </>
