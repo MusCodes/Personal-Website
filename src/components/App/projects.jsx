@@ -1,8 +1,10 @@
 import React from "react";
-const Projects= React.forwardRef((props,ref) => {
+
+const Projects = React.forwardRef((props, ref) => {
   return (
     <div ref={ref} className="projects">
       <h1 className="aboutMustafa">Projects</h1>
+
       <div className="card-container">
         <div className="card">
           <a href="https://ibb.co/r4d0mqT">
@@ -14,7 +16,9 @@ const Projects= React.forwardRef((props,ref) => {
           </a>
           <div className="card-description">
             <p>
-              Movie app that tells you about the movie genre and description.
+              Web application that has posters of popular movies. Once a user
+              clicks on the movie poster, they are taken to another page that
+              displays the movie description, genre, and rating.
             </p>
             <a href="https://github.com/MusCodes/movie-sagas" target="_blank">
               <button className="card-button">GitHub</button>
@@ -32,13 +36,14 @@ const Projects= React.forwardRef((props,ref) => {
           </a>
           <div className="card-description">
             <p>
-              {" "}
-              Feed back survey that students can submit to give teachers a
-              deeper understanding of the students learning experience
+              Survey app that takes feedback surveys that students can submit to
+              give teachers a deeper understanding of the student's learning
+              experience.
             </p>
             <a
               href="https://github.com/MusCodes/redux-feedback-loop"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <button className="card-button">GitHub</button>
             </a>
@@ -55,19 +60,64 @@ const Projects= React.forwardRef((props,ref) => {
           </a>
           <div className="card-description">
             <p>
-              {" "}
-              Fitness Tracking app that allows users to keep track of progress
-              in the gym
+              Mobile-first app that tracks exercises, reps, and weight.
+              IronTracker also has a page that allows you to search for an
+              exercise or a body part, and it will display a GIF showing the
+              user how to perform the exercise.
             </p>
-            <a href="https://github.com/MusCodes/IronTracker" target="_blank">
+            <a
+              href="https://github.com/MusCodes/IronTracker"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className="card-button">GitHub</button>
             </a>
+          </div>
+        </div>
+        <div className="card-container">
+          <div className="card">
+            <a
+              href="https://ibb.co/f2wGPJT"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://i.ibb.co/Dt2gSdj/Screenshot-2023-05-31-at-3-20-28-AM.png"
+                alt="Screenshot-2023-05-31-at-3-20-28-AM"
+                border="0"
+              />
+            </a>
+            <div className="card-description">
+              <p>
+                Collaborated with Richland Music Parents to streamline the
+                ordering process for their community calendar through the
+                creation of a sophisticated web application. This innovative
+                platform provides users with the ability to effortlessly
+                purchase calendars and add events to the community calendar,
+                while granting administrators extensive control over event
+                management tasks, such as viewing, delivering, and deleting
+                events.
+              </p>
+              <a
+                href="https://github.com/MusCodes/movie-sagas"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="card-button">GitHub</button>
+              </a>
+              <a
+                href="https://richland-music-parents.fly.dev/#/splashPage"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="card-button">Website</button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   );
-})
+});
+
 export default Projects;
-
-

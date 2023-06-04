@@ -152,6 +152,7 @@ html {
 .card p {
   font-size: 16px;
   margin-bottom: 20px;
+  color: white;
 }
 
 .body {
@@ -202,15 +203,20 @@ a:hover {
 /* END OF NAVBAR */
 
 /* PROJECT */
+
+
 .card-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  margin-bottom: 20px;
+ margin-right: 20px;
+ margin-left: 20px;
 }
 
 .card {
   width: 300px;
-  margin-right: 20px;
+  margin-bottom: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -224,21 +230,17 @@ a:hover {
   padding: 20px;
 }
 
-.card h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
 .card p {
   font-size: 16px;
   margin-bottom: 20px;
+  color: #4c85bd;
 }
 
 .card-button {
   display: inline-block;
   padding: 10px 20px;
   background-color: #3498db;
-  color:#d27c21;
+  color: white;
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.2s ease-in-out;
@@ -247,6 +249,7 @@ a:hover {
 .card-button:hover {
   background-color: #2980b9;
 }
+
 .projects {
   background-color: #2d343b;
 }
