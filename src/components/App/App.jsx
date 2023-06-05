@@ -6,7 +6,7 @@ import Projects from "./projects";
 
 import Skills from "./skills";
 import { useRef } from "react";
-import ScrollToTopButton from "./footer";
+import ScrollToTopButton from "./scroll";
 
 function App() {
   const aboutRef = useRef(null);
