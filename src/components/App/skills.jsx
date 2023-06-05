@@ -13,41 +13,30 @@ const Skills = React.forwardRef((props, ref) => {
               </div>
               <p>Html 5</p>
             </div>
-          </div>
-          <div className="skillsRow">
             <div className="skill">
               <div className="skill-icon">
                 <img src="https://img.icons8.com/color/70/null/css3.png" />
               </div>
               <p>Css 3</p>
             </div>
-          </div>
-          <div className="skillsRow">
             <div className="skill">
               <div className="skill-icon">
                 <img src="https://img.icons8.com/fluency/70/null/javascript.png" />
               </div>
-
               <p>JavScript</p>
             </div>
-          </div>
-          <div className="skillsRow">
             <div className="skill">
               <div className="skill-icon">
                 <img src="https://img.icons8.com/ios-filled/70/null/redux.png" />
               </div>
               <p>Redux</p>
             </div>
-          </div>
-          <div className="skillsRow">
             <div className="skill">
               <div className="skill-icon">
                 <img src="https://img.icons8.com/officel/70/null/react.png" />
               </div>
               <p>React</p>
             </div>
-          </div>
-          <div className="skillsRow">
             <div className="skill">
               <div className="skill-icon">
                 <img src="https://img.icons8.com/fluency/70/null/node-js.png" />
@@ -62,24 +51,18 @@ const Skills = React.forwardRef((props, ref) => {
               </div>
               <p>Express Js</p>
             </div>
-          </div>
-          <div className="skillsRow">
             <div className="skill">
               <div className="skill-icon">
                 <img src="https://img.icons8.com/ios-filled/70/null/jquery.png" />
               </div>
               <p>Jquery</p>
             </div>
-          </div>
-          <div className="skillsRow">
             <div className="skill">
               <div className="skill-icon">
                 <img src="https://img.icons8.com/color/48/null/postgreesql.png" />
               </div>
               <p>PostgreSQL</p>
             </div>
-          </div>
-          <div className="skillsRow">
             <div className="skill">
               <div className="skill-icon">
                 <img src="https://img.icons8.com/color/70/null/bootstrap.png" />
@@ -94,32 +77,26 @@ const Skills = React.forwardRef((props, ref) => {
               </div>
               <p>Tailwind</p>
             </div>
-          </div>
-          <div className="skillsRow">
             <div className="skill">
               <div className="skill-icon">
                 <img src="https://img.icons8.com/ios/70/null/git.png" />
               </div>
               <p>Git</p>
             </div>
-            <div className="skillsRow">
-              <div className="skill">
-                <div className="skill-icon">
-                  <img src="https://img.icons8.com/ios-filled/70/null/c-sharp-logo.png" />
-                </div>
-                <p>C#</p>
+            <div className="skill">
+              <div className="skill-icon">
+                <img src="https://img.icons8.com/ios-filled/70/null/c-sharp-logo.png" />
               </div>
-              <div className="skillsRow">
-                <div className="skill">
-                  <div className="skill-icon">
-                    <img
-                      width="70"
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/512px-.NET_Core_Logo.svg.png"
-                    />
-                  </div>
-                  <p>.Net Core</p>
-                </div>
+              <p>C#</p>
+            </div>
+            <div className="skill">
+              <div className="skill-icon">
+                <img
+                  width="70"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/512px-.NET_Core_Logo.svg.png"
+                />
               </div>
+              <p>.Net Core</p>
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@ import React from "react";
 const Projects = React.forwardRef((props, ref) => {
   return (
     <div ref={ref} className="projects">
-      <h1 className="aboutMustafa">Projects</h1>
+      <h1 className="projects">Projects</h1>
 
       <div className="card-container">
         <div className="card">
