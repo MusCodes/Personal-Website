@@ -312,15 +312,16 @@ a:hover {
 }
 
 .skillsBorder {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: repeat(6, 1fr);
-  gap: 10px;
-  justify-items: center;
+  gap: 50px;
+  
   background-color: black;
   padding: 20px;
   border-radius: 10px;
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100% ;
+
 }
 
 .skillsRow {
@@ -349,7 +350,7 @@ a:hover {
 
 .skill p {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 20px;
   text-align: center;
   color: #4c85bd;
 }
