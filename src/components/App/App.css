@@ -382,4 +382,28 @@ a:hover {
   margin-right: 30px; 
 }
 
+/* Scroll to top */
+.scrollToTopButton {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  width: 50px;
+  height: 50px;
+  
+  border-radius: 50%;
+  /* background-color: #4c85bd; */
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+}
+
+.scrollToTopButton img {
+  width: 100%;
+  height: auto;
+}
+
+/* .scrollToTopButton:hover {
+  background-color: #2980b9;
+} */
 

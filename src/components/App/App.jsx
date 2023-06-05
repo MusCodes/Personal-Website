@@ -6,6 +6,7 @@ import Projects from "./projects";
 
 import Skills from "./skills";
 import { useRef } from "react";
+import ScrollToTopButton from "./footer";
 
 function App() {
   const aboutRef = useRef(null);
@@ -20,6 +21,7 @@ function App() {
         <Skills ref={skillsRef} />
         <Projects ref={projectsRef} />
       </header>
+      <ScrollToTopButton/>
     </div>
   );
 }
