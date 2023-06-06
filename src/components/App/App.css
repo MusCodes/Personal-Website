@@ -250,15 +250,16 @@ a:hover {
 .card-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #3498db;
-  color: white;
+  background-color: orange;
+  color: black;
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.2s ease-in-out;
+  margin-right: 10px;
 }
 
 .card-button:hover {
-  background-color: #2980b9;
+  background-color:#3498db;;
 }
 
 .projects {

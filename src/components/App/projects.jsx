@@ -51,6 +51,40 @@ const Projects = React.forwardRef((props, ref) => {
         </div>
 
         <div className="card">
+          <a href="https://ibb.co/D8KB4hB">
+            <img
+              src="https://i.ibb.co/CM0jBgj/Screenshot-2023-06-06-at-1-11-14-AM.png"
+              alt="Screenshot-2023-06-06-at-1-11-14-AM"
+              className="card-image"
+            />
+          </a>
+          <div className="card-description">
+            <p>
+              This is one of my first projects, a to do list. Easily create,
+              manage, and prioritize your tasks with a user-friendly interface.
+              Check off completed tasks, and they'll be moved to the bottom of
+              the list and highlighted in red.This application will help you
+              Stay organized and boost your productivity.
+            </p>
+            <a
+              href="https://github.com/MusCodes/weekend-sql-to-do-list"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="card-button">GitHub</button>
+            </a>
+            
+            <a
+              href="https://mm-todo.fly.dev/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="card-button">Website</button>
+            </a>
+          </div>
+        </div>
+
+        <div className="card">
           <a href="https://ibb.co/bPsjYHQ">
             <img
               src="https://i.ibb.co/478wCsK/Screenshot-2023-03-13-at-2-06-59-AM.png"
@@ -76,14 +110,10 @@ const Projects = React.forwardRef((props, ref) => {
         </div>
         <div className="card-container">
           <div className="card">
-            <a
-              href="https://ibb.co/f2wGPJT"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://ibb.co/Qb5zb8t">
               <img
-                src="https://i.ibb.co/Dt2gSdj/Screenshot-2023-05-31-at-3-20-28-AM.png"
-                alt="Screenshot-2023-05-31-at-3-20-28-AM"
+                src="https://i.ibb.co/FxPNxsC/Screenshot-2023-06-06-at-1-26-23-AM.png"
+                alt="Screenshot-2023-06-06-at-1-26-23-AM"
                 border="0"
               />
             </a>
@@ -105,6 +135,7 @@ const Projects = React.forwardRef((props, ref) => {
               >
                 <button className="card-button">GitHub</button>
               </a>
+            
               <a
                 href="https://richland-music-parents.fly.dev/#/splashPage"
                 target="_blank"
